@@ -1,0 +1,47 @@
+{
+  "name": "awesome-static-proxy",
+  "version": "1.0.1",
+  "description": "用来做静态资源代理到本地的工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd ./demo && node index.js",
+    "build": "father-build"
+  },
+  "bin": {
+    "proxy": "./bin/proxy.js"
+  },
+  "keywords": [
+    "anyproxy",
+    "proxy"
+  ],
+  "dependencies": {
+    "anyproxy": "4.0.0-beta18",
+    "cross-spawn": "^5.1.0",
+    "fie-api": "^3.1.0",
+    "fs-extra": "^4.0.1",
+    "mime-types": "^2.1.16",
+    "request": "^2.83.0",
+    "yargs": "^10.0.3",
+    "commander": "^2.11.0",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/runtime": "^7.6.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.1.2",
+    "eslint": "^4.1.1",
+    "eslint-config-ali": "^2.0.0",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-react": "^7.1.0",
+    "father-build": "^1.14.1",
+    "prettier": "1.9.2",
+    "prettier-eslint": "^8.7.0",
+    "prettier-eslint-cli": "^4.7.0"
+  },
+  "author": "自羽",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
